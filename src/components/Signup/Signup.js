@@ -33,6 +33,7 @@ export default class signUp extends Component {
     this.setState({
         authFlag : false
     })
+    console.log("Root url:" + ROOT_URL);
   }
 
   handleChange = event => {
